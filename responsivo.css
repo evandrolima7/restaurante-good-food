@@ -1,0 +1,341 @@
+@media (max-width:1050px){
+    .equipe-img img {
+        width: 100%;
+     }
+     .galeria .img-food{
+        width: 250px;
+        height: 200px;
+    }
+}
+
+
+@media (max-width:1000px){
+    .menu a{
+        margin-right: 18px;
+        font-size: 1rem;
+    }
+    .welcome h1{
+        font-size: 3.5rem;
+        margin-top: 30px;
+    }
+    .welcome p{
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 20px 70px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .sobre-nos p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        font-size: 1.2rem;
+        color:#0D0D0D;
+    }
+    .introducao p{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 1.2rem;
+        color:#0D0D0D;
+        width: 75%;
+        text-align: center;
+        margin: auto;
+    }
+    .contatos p{
+        margin-top: 25px;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:920px){
+    #cards{
+        margin: 50px auto;;
+        font-size: 1.2em;
+        width: 800px;
+    }
+    .galeria{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 15px;
+    }
+    .galeria .img-food{
+        width: 200px;
+        height: 150px;
+    }
+}
+
+@media (max-width:800px){
+    #cards{
+        margin: 50px auto;;
+        font-size: 1rem;
+        width: 600px;
+    }
+    #cards img{
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        margin: 20px auto;
+    
+    }
+    .card-text::after{
+        content: "⭐⭐⭐⭐⭐";
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:770px){
+    #cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        margin: 20px auto;
+    }
+    #card{
+        width: 200px;
+    }
+    .menu-desktop{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+    }
+    #color-menu-mobile{
+        background-image: linear-gradient( #F2D57E, #D9A443);
+        margin-right: 40px;
+    }
+    #img-logo{
+        margin-left: 40px;
+    }
+    .welcome h1{
+        font-size: 3rem;
+        margin-top: 20px;
+    }
+    .welcome p{
+        font-size: 1rem;
+        padding: 20px 40px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .sobre-nos h1{
+        font-size: 3rem;
+    }
+    .sobre-nos p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 3rem;
+        padding-right: 1.5rem;
+        font-size: 1rem;
+        color:#0D0D0D;
+    }
+    .introducao h1{
+        font-size: 3rem;
+    }
+    .introducao h2{
+        font-size: 1.5rem;
+    }
+    .introducao p{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: 1rem;
+        color:#0D0D0D;
+        width: 75%;
+        text-align: center;
+        margin: auto;
+    }
+    .contatos p{
+        margin-top: 25px;
+        font-size: 1rem;
+    }
+    .duvidas h1{
+        font-size: 3rem;
+    }
+    .depoimentos h1{
+        font-size: 3rem;
+    }
+    .contato h1{
+        font-size: 3rem;
+    }
+    .detalhe::before{
+        width: 500px;
+        
+    }
+}
+
+@media (max-width:670px){
+    #cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+    }
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+    .galeria .img-food{
+        width: 200px;
+        height: 150px;
+    }
+    .sobre h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:540px){
+    
+    .detalhe::before{
+        max-width: 200px;
+        
+    }
+    .sobre{
+        grid-template-columns: 1fr;
+    }
+    .sobre-nos h1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    #sobre-detalhe{
+        display: block;
+    }
+    .sobre-nos p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 3rem;
+        padding-right: 1rem;
+        font-size: 1rem;
+        color:#0D0D0D;
+    }
+    .sobre-nos button{
+        margin-left: 3rem;
+        padding: 8px 16px;
+        font-size: 1rem;
+        background-color:#d9a543;
+        border-radius: 4px;
+        color:white;
+        font-weight: bold;
+        border: none;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.521);
+    }
+    .button button{
+        padding: 8px 16px;
+        font-size: 1rem;
+        background-color:#d9a543;
+        border-radius: 4px;
+        color:white;
+        font-weight: bold;
+        border: none;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.521);
+        margin: 40px auto;
+    }
+    
+    .contatos p{
+        margin-top: 25px;
+        font-size: 1rem;
+    }
+    .detalhe::before{
+        width: 500px;
+        
+    }
+    .equipe-img img {
+        display: block;
+        width: 90%;
+        margin:  0 auto;
+     }
+    .home{
+    align-content: center;
+    height: 100vh;
+        grid-template-columns: 1fr;
+    }
+    .welcome{
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+    margin-top: 7rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .frente-restaurante img{
+        width: 90%;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+    }
+    .frente-restaurante{
+        text-align: center;
+        margin-right: 0px;
+        margin:auto  auto auto 0;
+        
+    }
+    .contatos{
+        display: grid;
+        grid-template-columns:1fr;
+    }
+    #img-logo{
+        width: 100px;
+        height: 70px;
+        margin-left: 10px;
+    }
+    #color-menu-mobile{
+        margin-right: 10px;
+    }
+}
+
+@media (max-width:470px){
+    .welcome{
+        margin-top: 5px;
+    }
+    .galeria{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .galeria .img-food{
+        width: 150px;
+        height: 100px;
+    }
+    #cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        margin: 10px auto;
+        font-size: .575rem;
+    }
+    #card{
+        width: 150px;
+    }
+    #cards img{
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        margin: 10px auto;
+    
+    }
+    .card-text::after{
+        content: "⭐⭐⭐⭐⭐";
+        font-size: 1rem;
+    }
+    .card-title{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .sobre h1{
+        font-size: 2.5rem;
+    }
+    .introducao h1{
+        font-size: 2.5rem;
+    }
+    .introducao h2{
+        font-size: 1.2rem;
+    }
+    .duvidas h1{
+        font-size: 2.3rem;
+    }
+    .depoimentos h1{
+        font-size: 2.5rem;
+    }
+    .contato h1{
+        font-size: 2.5rem;
+    }
+}
