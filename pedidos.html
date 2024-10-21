@@ -14,7 +14,7 @@
     <div class="menu-mobile">
         <nav class="navbar bg-black fixed-top">
           <div class="container-fluid">
-            <img id="img-logo" src="./imagens/logo-good-removebg-preview.png " alt="logo-restaurant" width="120" height="90">
+            <a href="index.html"><img id="img-logo" src="./imagens/logo-good-removebg-preview.png " alt="logo-restaurant" width="120" height="90"></a>
             <button id="color-menu-mobile" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -67,10 +67,10 @@
                 <img src="./imagens/logo-good-removebg-preview.png" alt="logo-restaurant" width="120" height="90">
                 <ul class="menu">
                     <li><a href="index.html">home</a></li>
-                    <li><a href="#sobre">sobre</a></li>
-                    <li><a href="#">eventos</a></li>
-                    <li><a href="#contato">contato</a></li>
-                    <li><a href="#">agendar</a></li>
+                    <li><a href="index.html#sobre">sobre</a></li>
+                    <li><a href="eventos.html">eventos</a></li>
+                    <li><a href="index.html#contato">contato</a></li>
+                    <li><a href="agendar.html">agendar</a></li>
                 </ul>
               </a>
             </div>
@@ -85,21 +85,21 @@
         <img src="./imagens-pedidos/carne.jpeg" alt="file-mignon">
 
     </section>
-    <section class="cards-grid">
+    <section class="cards-grid" >
 
-        <div class="card">
+        <div class="card" id="card">
             <h1>horário</h1>
             <p>Segunda á <br>Domingo das 11:00 <br> às 23:00</p>
         </div>
 
         
-        <div class="card">
+        <div class="card" id="card">
             <h1>Pagamento</h1>
             <p>Débito <br> Crédito <br> Vale-Refeição</p>
         </div>
 
         
-        <div class="card">
+        <div class="card" id="card">
             <h1>Como pedir?</h1>
              <a href="https://ifood.com.br">
                 <img src="./imagens-pedidos/bt-delivery-ifood.png" alt="btn-ifood">
@@ -110,7 +110,7 @@
 
     <span class="divisoria"></span>
 
-    <section class="salada-grid">
+    <section class="salada-grid" data-scroll>
         <h1>OPÇÕES LEVES E REFRECANTES</h1>
         <img src="./imagens-pedidos/saladacaprese.jpeg" alt="salada-caprese">
         <p>Nossas saladas são preparadas com ingredientes frescos e selecionados para garantir sabor e nutrição em cada garfada. Desde combinações clássicas até versões mais criativas, você pode escolher a que mais combina com seu paladar. Entre as opções, temos salada caprese, mix de folhas com nozes e queijo de cabra, ou ainda uma salada tropical com manga e hortelã. Perfeitas para uma refeição leve e cheia de sabor.</p>
@@ -120,7 +120,7 @@
 
     <span class="divisoria"></span>
 
-    <section class="massa-grid">
+    <section class="massa-grid" data-scroll>
         <h1>MASSAS QUE SURPREENDEM NO SABOR</h1>
         <img src="./imagens-pedidos/massa.jpeg" alt="raviole">
         <p>Nossas massas são preparadas artesanalmente, garantindo frescor e qualidade em cada prato. Você pode escolher entre opções tradicionais como o fettuccine ao molho pesto, o ravioli recheado de ricota e espinafre, ou ainda o clássico gnocchi de batata ao sugo. Cada prato é feito com ingredientes selecionados e molhos cuidadosamente preparados, resultando em uma refeição deliciosa e reconfortante.</p>
@@ -129,12 +129,12 @@
 
     <span class="divisoria"></span>
 
-    <section class="sobremesa-grid">
+    <section class="sobremesa-grid" data-scroll>
         <img src="./imagens-pedidos/sorvete.jpeg" alt="sobremesa">
         <h1>SOBREMESAS PARA ENCERRAR COM DOÇURA</h1>
         <p>Nossas sobremesas são o toque final perfeito para a sua refeição. Delicadas e cheias de sabor, temos opções para todos os gostos: o clássico petit gâteau com sorvete de baunilha, um irresistível pudim de leite condensado, ou ainda a leveza de um cheesecake com calda de frutas vermelhas. Cada doce é feito com ingredientes de qualidade, garantindo uma experiência doce e inesquecível a cada mordida!</p>
         <button class="btn">FAZER PEDIDO</button>
-        <form action="">
+        <form action="" data-scroll>
             <h2 class="title-form">Fique sabendo das nossas novidades!</h2>
             <h3>Preencha os campos com o seu nome e e-mail e receba nossas promoções.</h2>
             <label for="name">Nome</label>

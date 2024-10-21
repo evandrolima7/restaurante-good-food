@@ -118,10 +118,6 @@ flex-wrap: wrap;
 #sobre-detalhe{
     display: none;
 }
-.sobre-nos button:hover{
-    font-size: 1.7rem;
-    transition: 1s;
-}
 .equipe-img img {
    width: 80%;
 }
@@ -196,10 +192,6 @@ flex-wrap: wrap;
     margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
-}
-.button button:hover{
-    font-size: 1.7rem;
-    transition: 1s;
 }
 .depoimentos h1{
     padding-left: 4rem;
