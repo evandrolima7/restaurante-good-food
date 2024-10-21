@@ -1,0 +1,300 @@
+@media(max-width: 1200px){
+    .body{
+        width: 1000px;
+    }
+}
+
+@media(max-width: 1201px){
+    .home-pedidos-grid h1{
+        font-size: 2rem;
+    }
+    .home-pedidos-grid p{
+        font-size: 1.2rem;
+    }
+    .salada-grid h1{
+        font-size: 2rem;
+    }
+    .salada-grid p{
+        font-size: 1.2rem;
+    }
+    .massa-grid h1{
+        font-size: 2rem;
+    }
+    .massa-grid p{
+        font-size: 1.2rem;
+    }
+    .sobremesa-grid h1{
+        font-size: 2rem;
+    }
+    .sobremesa-grid p{
+        font-size: 1.2rem;
+    }
+    
+    .card p {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 995px){
+    .bg{
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .body{
+        border-radius: 0px;
+        background-image:linear-gradient(to left, #fffcea,#ffffff );
+        margin: 0 auto;
+        border: 0px solid #D9A443;
+        width: 100%;
+    }
+    .menu-desktop{
+        display: none;
+    }
+    .menu-mobile{
+        display: block;
+    }
+    #color-menu-mobile{
+        background-image: linear-gradient( #F2D57E, #D9A443);
+        margin-right: 40px;
+    }
+    #img-logo{
+        margin-left: 40px;
+    } 
+    .home-pedidos-grid{
+        margin-top: 100px;
+    }
+    footer{
+        margin-top: 1px;
+        box-shadow: -3px -3px 3px #d9a543fd;
+
+    }
+    .sobremesa-grid{
+        margin-bottom: 0px;
+    }
+   
+}
+
+
+@media(max-width: 870px){
+    .home-pedidos-grid h1{
+        font-size: 1.7rem;
+    }
+    .home-pedidos-grid p{
+        font-size: 1rem;
+    }
+    .salada-grid h1{
+        font-size: 1.7rem;
+    }
+    .salada-grid p{
+        font-size: 1rem;
+    }
+    .massa-grid h1{
+        font-size: 1.7rem;
+    }
+    .massa-grid p{
+        font-size: 1rem;
+    }
+    .sobremesa-grid h1{
+        font-size: 1.7rem;
+    }
+    .sobremesa-grid p{
+        font-size: 1rem;
+    }
+    .card h1{
+        font-size: 1.7rem;
+    }
+    .card p {
+        font-size: 1rem;
+    }
+}
+
+
+@media(max-width: 700px){
+    section{
+        width: 100%;
+    }
+    .bg{
+        margin: 0px;
+        width: 100%;
+    }
+    .body{
+        width: 100%;
+        margin: 0px
+    }
+    .card{
+        max-width: 150px;
+    }
+    .card h1{
+        font-size: 1.3rem;
+    }
+    .home-pedidos-grid{
+        display: block;
+        width: 100%;
+    }
+    .home-pedidos-grid h1{
+        font-size: 2rem;
+    }
+    .home-pedidos-grid p {
+        font-size: 1.2rem;
+    }
+    .home-pedidos-grid button{
+        margin-bottom: 10px;
+    }
+    .home-pedidos-grid img {
+        margin-top: 20px;
+    }
+
+    .massa-grid{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .massa-grid img{
+        max-width: 80%;
+    }
+    .massa-grid p{
+        margin-top: 20px;
+        text-align: left;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .massa-grid h1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    
+    .salada-grid{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .salada-grid img{
+        max-width: 80%;
+    }
+    .salada-grid p{
+        margin-top: 20px;
+        text-align: left;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .salada-grid h1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    footer{
+        font-size: 1rem;
+    }
+    
+    .sobremesa-grid{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .sobremesa-grid button{
+        display: block;
+        margin:30px auto;
+    }
+    .sobremesa-grid img{
+        max-width: 80%;
+        margin: auto;
+    }
+    .sobremesa-grid p{
+        margin-top: 20px;
+        text-align: left;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .sobremesa-grid h1{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    form{
+        width: 50%;
+        background-color: #0D0D0D;
+        color: white;
+        padding: 20px;
+        border-radius: 4px;
+        justify-items: center;
+        margin: auto;
+    }
+    form input{
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+        height: 30px;
+    }
+    label{
+        margin-bottom: 0px;
+        font-size: 1.5rem;
+    }
+    
+
+    .cards-grid{
+        display: none;
+        gap: 20px;
+    }
+    .card{
+        display: block;
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 523px){
+    .home-pedidos-grid{
+        margin-top: 70px;
+    }
+    .home-pedidos-grid .btn{
+        font-size: 1rem;
+        padding: 10px 5px;
+    }
+    .salada-grid button{
+        font-size: 1rem;
+        padding: 10px 5px;
+    }
+    .massa-grid button{
+        font-size: 1rem;
+        padding: 10px 5px;
+    }
+    .sobremesa-grid button{
+        font-size: 1rem;
+        padding: 10px 5px;
+    }
+}
+
+
+@media(max-width: 500px){
+    .home-pedidos-grid h1::before{
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 10px;
+        background-image:linear-gradient( #F2D57E,#D9A443);
+        margin-right: 5px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media(max-width: 470px){
+    .home-pedidos-grid h1{
+        font-size: 1.75rem;
+    }
+    .home-pedidos-grid p {
+        font-size: 1.2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    form{
+        width: 100%;
+        background-color: #0D0D0D;
+        color: white;
+        padding: 20px;
+        border-radius: 4px;
+        justify-items: center;
+        margin: auto;
+    }
+}
